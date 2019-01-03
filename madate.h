@@ -1,4 +1,6 @@
 #pragma once
+#include <string>
+
 class madate
 {
 	int _jour;
@@ -14,8 +16,6 @@ public:
 	int TotalAnnee(madate lhs);
 	int jourecoule(madate lhs);
 	bool isBesxtile();
-	int operator-(madate lhs);
-	int operator-=(madate lhs);
 	const int enNum() ;
 	const int enTouteLettre() ;
 	void setMois(int newMois);
