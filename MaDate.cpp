@@ -130,23 +130,6 @@ madate::jourecoule(madate lhs)
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 int
 madate::jourecoule()		// depuis 1 janvier de l'anne courante
 {
@@ -175,41 +158,12 @@ madate::jourecoule()		// depuis 1 janvier de l'anne courante
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 bool
 madate::isBesxtile()
 {
 	return ((this->_annee % 4 == 0) && (this->_annee % 100 != 0)
 		|| (this->_annee % 400 == 0));
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 madate::madate(int ctorjour, int ctormois, long int ctorannee)	// TODO: Controle (Positive)
@@ -249,14 +203,6 @@ madate::madate(int ctorjour, int ctormois, long int ctorannee)	// TODO: Controle
 
 
 
-
-
-
-
-
-
-
-
 void
 madate::operator++ ()
 {
@@ -278,8 +224,6 @@ madate::operator++ ()
 
 
 
-
-
 int const
 madate::enTouteLettre()
 {
@@ -297,10 +241,6 @@ madate::enTouteLettre()
 		this->_jour << " " << strMois[this->_mois] << " " << this->_annee<<std::endl;
 	return 0;
 }
-
-
-
-
 
 
 
